@@ -15,7 +15,7 @@ $ npm install --save-dev @egodigital/tsconfig
 ```json
 {
     "extends": "@egodigital/tsconfig",
-        "compilerOptions": {
+    "compilerOptions": {
         "outDir": "dist",
         "target": "es2018",
         "lib": [
