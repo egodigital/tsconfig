@@ -1,21 +1,23 @@
 {
     "compilerOptions": {
         "module": "commonjs",
+        "moduleResolution": "node",
         "target": "es2017",
         "lib": [
             "es2017"
         ],
         "sourceMap": true,
-        "rootDir": "src",
         "strict": false,
         "noUnusedLocals": true,
         "removeComments": false,
         "allowUnreachableCode": false,
         "noImplicitAny": false,
         "pretty": false,
-        "experimentalDecorators": true
-    },
-    "exclude": [
-        "node_modules"
-    ]
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "jsx": "react-native",
+		"newLine": "lf",
+		"stripInternal": true,
+		"skipLibCheck": true
+    }
 }
