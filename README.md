@@ -1,5 +1,7 @@
 # tsconfig
 
+[![npm](https://img.shields.io/npm/v/@egodigital/tsconfig.svg)](https://www.npmjs.com/package/@egodigital/tsconfig)
+
 Shared [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) and [tslint](https://palantir.github.io/tslint/) config files for [e.GO](https://e-go-digital.com/) projects.
 
 ## Install
