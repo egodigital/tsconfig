@@ -13,6 +13,7 @@
         "allowUnreachableCode": false,
         "noImplicitAny": false,
         "pretty": false,
+        "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "resolveJsonModule": true,
         "jsx": "react-native",
