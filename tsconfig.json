@@ -1,24 +1,23 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "target": "es2017",
-        "lib": [
-            "es2017"
-        ],
-        "sourceMap": true,
-        "strict": false,
-        "noUnusedLocals": true,
-        "removeComments": false,
         "allowUnreachableCode": false,
-        "noImplicitAny": false,
-        "pretty": false,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "resolveJsonModule": true,
         "jsx": "react-native",
-		"newLine": "lf",
-		"stripInternal": true,
-		"skipLibCheck": true
+        "lib": [
+            "es2019"
+        ],
+        "newLine": "lf",
+        "noUnusedLocals": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "pretty": false,
+        "removeComments": false,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "stripInternal": true,
+        "target": "es2019"
     }
 }

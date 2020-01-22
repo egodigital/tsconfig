@@ -1,6 +1,6 @@
 {
 	"name": "@egodigital/tsconfig",
-	"version": "1.3.0",
+	"version": "2.0.0",
 	"description": "Shared TypeScript and tslint config files for e.GO projects.",
 	"license": "MIT",
 	"repository": "egodigital/tsconfig",
@@ -14,15 +14,15 @@
 		"node": ">=8"
 	},
 	"files": [
-        "tsconfig.json",
-        "tslint.json"
+		"tsconfig.json",
+		"tslint.json"
 	],
 	"keywords": [
-        "config",
+		"config",
 		"configuration",
-        "ts",
-        "tsconfig",
-        "tslint",
+		"ts",
+		"tsconfig",
+		"tslint",
 		"typescript"
 	]
 }

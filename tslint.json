@@ -1,7 +1,7 @@
 {
 	"rules": {
 		"arrow-return-shorthand": true,
-		"await-promise": [true, "Thenable", "PromiseLike"],
+		"await-promise": [true, "Thenable", "PromiseLike", "Bluebird"],
 		"class-name": true,
 		"comment-format": [
             true,
