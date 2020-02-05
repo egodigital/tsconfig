@@ -1,0 +1,6 @@
+/.github
+/.vscode
+**/*.map
+node_modules
+.gitignore
+.DS_Store
