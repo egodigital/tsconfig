@@ -64,8 +64,7 @@ If you experience problems with the validation in Visual Studio Code try other s
         "src/*.ts",
     ],
     "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
+        "node_modules"
     ]
 }
 ```
