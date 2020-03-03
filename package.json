@@ -1,6 +1,6 @@
 {
 	"name": "@egodigital/tsconfig",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"description": "Shared TypeScript and tslint config files for e.GO projects.",
 	"license": "MIT",
 	"repository": "egodigital/tsconfig",
@@ -24,5 +24,8 @@
 		"tsconfig",
 		"tslint",
 		"typescript"
-	]
+	],
+	"dependencies": {
+		"tslint-consistent-codestyle": "^1.16.0"
+	}
 }
