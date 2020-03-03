@@ -1,4 +1,7 @@
 {
+    "extends": [
+        "tslint-consistent-codestyle"
+    ],
     "rules": {
         "arrow-return-shorthand": true,
         "await-promise": [
@@ -34,9 +37,7 @@
         ],
         "semicolon": [
             true,
-            "always",
-            "ignore-interfaces",
-            "ignore-bound-class-methods"
+            "always"
         ],
         "array-type": [
             true,
