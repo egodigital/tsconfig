@@ -31,7 +31,7 @@ $ npm install --save-dev @egodigital/tsconfig
 
 ```json
 {
-    "extends": "@egodigital/tsconfig",
+    "extends": "@egodigital/tsconfig/tslint.json",
     "rules": {
         "semicolon": [
             true,
