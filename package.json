@@ -1,6 +1,6 @@
 {
 	"name": "@egodigital/tsconfig",
-	"version": "3.1.1",
+	"version": "4.0.0",
 	"description": "Shared TypeScript and tslint config files for e.GO projects.",
 	"license": "MIT",
 	"repository": "egodigital/tsconfig",
@@ -26,7 +26,13 @@
 		"typescript"
 	],
 	"dependencies": {
-		"tslint": "^6.0.0",
-		"tslint-consistent-codestyle": "^1.16.0"
+		"@typescript-eslint/eslint-plugin": "^2.22.0",
+		"@typescript-eslint/eslint-plugin-tslint": "^2.22.0",
+		"@typescript-eslint/parser": "^2.22.0",
+		"eslint": "^6.8.0",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-no-null": "^1.0.2",
+		"eslint-plugin-unicorn": "^16.1.1",
+		"typescript": "^3.8.3"
 	}
 }
