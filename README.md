@@ -19,61 +19,20 @@ $ npm install --save-dev @egodigital/tsconfig
     "extends": "@egodigital/tsconfig",
     "compilerOptions": {
         "outDir": "dist",
-        "target": "es2018",
+        "target": "es2020",
         "lib": [
-            "es2018"
+            "es2020"
         ]
     }
 }
 ```
 
-### tslint.json
+### .eslintrc.js
 
 ```json
 {
     "extends": "@egodigital/tsconfig",
-    "rules": {
-        "semicolon": [
-            true,
-            "always"
-        ]
-    }
-}
-```
 
-## Extended Settings
-
-If you experience problems with the validation in Visual Studio Code try other settings:
-
-### tsconfig.json
-
-```json
-{
-    "extends": "@egodigital/tsconfig",
-    "compilerOptions": {
-        "outDir": "dist",
-        "target": "es2019",
-        "removeComments": true,
-        "lib": [
-            "es2019"
-        ],
-        "rootDir": "../"
-    },
-    "include": [
-        "src/**/*",
-        "src/*.ts",
-    ],
-    "exclude": [
-        "node_modules"
-    ]
-}
-```
-
-### tslint.json
-
-```json
-{
-    "extends": "@egodigital/tsconfig/tslint.json",
-    "rules": {}
+    "rules": {/* your custom rules */}
 }
 ```
