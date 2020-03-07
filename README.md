@@ -27,12 +27,8 @@ $ npm install --save-dev @egodigital/tsconfig
 }
 ```
 
-### .eslintrc.js
+### TSLint / ESLint
 
-```json
-{
-    "extends": "@egodigital/tsconfig",
+[TSLint](https://palantir.github.io/tslint/) has been removed from that project.
 
-    "rules": {/* your custom rules */}
-}
-```
+Please use [ESLint](https://eslint.org/) with [eslint-config-ego](https://www.npmjs.com/package/eslint-config-ego) as basic Linter configuration.
